@@ -1,0 +1,50 @@
+.emails-container {
+	font-family: PlusJakartaSans;
+	width: 100%;
+
+	.header {
+		padding: 30px 18px;
+	
+		.actions-row {
+			width: 100%;
+			margin: 20px 0 0;
+			display: flex;
+			align-items: center;
+			justify-content: space-between;
+
+			.other-actions {
+				> button {
+					color: #4B5563;
+				}
+
+				> button:first-child {
+					margin-right: 35px;
+				}
+			}
+		}
+	}
+
+	.emails-listing {
+		.single-email {
+			border-top: 1px solid #E5E7EB;
+			border-bottom: 1px solid #E5E7EB;
+			padding: 18px;
+			font-size: 13px;
+			font-weight: bold;
+			cursor: pointer;
+
+			.email-subject {
+				margin-left: 30px;
+			}
+		}
+
+		.single-email:hover {
+			background-color: #D1E2FF;
+			border: none;
+		}
+
+		.read {
+			background-color: #F3F6FB;
+		}
+	}
+}
