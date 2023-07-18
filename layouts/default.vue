@@ -17,7 +17,7 @@
 	<div class="main-wrapper">
 		<div class="sidebar-container">
 			<div class="company-logo">
-				<img src="#"/>
+				<font-awesome-icon icon="fa-solid fa-paper-plane" />
 			</div>
 			<div class="links-container">
 				<ul>
@@ -71,7 +71,9 @@
 		}
 
 		.company-logo {
-			margin-bottom: 20px;
+			margin-bottom: 30px;
+			display: flex;
+    	justify-content: center;
 		}
 
 		.links-container {
